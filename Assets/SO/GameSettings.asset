@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7ea3b9918141da868ad2587c15b790, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  BattleSettings:
+    BattlefieldSize: {x: 8, y: 6}
+    FirstTurnTeamName: Team1
+    TeamsParameters:
+    - TeamName: Team1
+      TeamColor: {r: 1, g: 0.98480475, b: 0, a: 1}
+      UnitsParameters:
+      - UnitName: LightWarrior
+        Position: {x: 0, y: 0}
+      - UnitName: LightWarrior
+        Position: {x: 0, y: 1}
+      - UnitName: HeavyWarrior
+        Position: {x: 0, y: 2}
+      - UnitName: LightWarrior
+        Position: {x: 2, y: 2}
+    - TeamName: Team2
+      TeamColor: {r: 0, g: 1, b: 0.038576365, a: 1}
+      UnitsParameters:
+      - UnitName: LightWarrior
+        Position: {x: 7, y: 5}
+      - UnitName: LightWarrior
+        Position: {x: 7, y: 4}
+      - UnitName: HeavyWarrior
+        Position: {x: 7, y: 3}
+      - UnitName: LightWarrior
+        Position: {x: 4, y: 3}
+  UnitsParameters:
+  - Name: LightWarrior
+    InitialHealth: 100
+    AttackForce: 50
+    MaxMovingDistance: 3
+    Prefab: {fileID: 3147239819525441036, guid: 390ef2e29fd22b141bc97bd43d9ee5b1,
+      type: 3}
+  - Name: HeavyWarrior
+    InitialHealth: 150
+    AttackForce: 80
+    MaxMovingDistance: 2
+    Prefab: {fileID: 2401963378185198926, guid: 3b0c01fa6b480714a838ed3084cd742b,
+      type: 3}
+  DiagonalAttackForceMultiplier: 0.66999996
+  GameSettings:
+    BattleSettings:
+      BattlefieldSize: {x: 8, y: 6}
+      FirstTurnTeamName: Team1
+      TeamsParameters:
+      - TeamName: Team1
+        TeamColor: {r: 1, g: 0.98480475, b: 0, a: 1}
+        UnitsParameters:
+        - UnitName: LightWarrior
+          Position: {x: 0, y: 0}
+        - UnitName: LightWarrior
+          Position: {x: 0, y: 1}
+        - UnitName: HeavyWarrior
+          Position: {x: 0, y: 2}
+        - UnitName: LightWarrior
+          Position: {x: 2, y: 2}
+      - TeamName: Team2
+        TeamColor: {r: 0, g: 1, b: 0.038576365, a: 1}
+        UnitsParameters:
+        - UnitName: LightWarrior
+          Position: {x: 7, y: 5}
+        - UnitName: LightWarrior
+          Position: {x: 7, y: 4}
+        - UnitName: HeavyWarrior
+          Position: {x: 7, y: 3}
+        - UnitName: LightWarrior
+          Position: {x: 4, y: 3}
+    UnitsParameters:
+    - Name: LightWarrior
+      InitialHealth: 100
+      AttackForce: 50
+      MaxMovingDistance: 3
+      Prefab: {fileID: 3147239819525441036, guid: 390ef2e29fd22b141bc97bd43d9ee5b1,
+        type: 3}
+    - Name: HeavyWarrior
+      InitialHealth: 150
+      AttackForce: 80
+      MaxMovingDistance: 2
+      Prefab: {fileID: 2401963378185198926, guid: 3b0c01fa6b480714a838ed3084cd742b,
+        type: 3}
+    DiagonalAttackForceMultiplier: 0.66999996
